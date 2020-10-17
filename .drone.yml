@@ -4,10 +4,10 @@ name: build
 
 steps:
 - name: cooked
-  image: kry9ton/image:latest
+  image: ilhamxm/image:latest
   environment:
     token:
       from_secret: bot_api
   commands:
-  - wget https://raw.githubusercontent.com/Kry9toN/Scripts/master/kernel/CI/vince/drone49
+  - wget https://raw.githubusercontent.com/IlhamXM/Scripts/master/kernel/CI/vince/drone49
   - bash drone49
